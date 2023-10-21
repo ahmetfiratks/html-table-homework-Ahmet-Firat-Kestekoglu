@@ -4,7 +4,52 @@
     box-sizing: border-box;
 }
 
+body{
+    font-size: 14px;
+}
+
 h1{
     margin-top: 30px;
     text-align: center;
+}
+
+.table{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+table tr th{
+    padding: 20px;
+}
+
+.gray-background{
+    background-color: lightgray;
+}
+
+td{
+    padding: 16px;
+}
+
+.border-spacing{
+    border-spacing: 50px;
+}
+
+.progress-button, .open-button, .onHold-button{
+    padding: 5px;
+    border: none;
+}
+
+.progress-button{
+    color: #fff;
+    background-color: darkgreen;
+}
+
+.open-button{
+    background-color: orange;
+}
+
+.onHold-button{
+    color: #fff;
+    background-color: red;
 }
